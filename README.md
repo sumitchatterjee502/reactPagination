@@ -1,6 +1,6 @@
 # reactPagination
 React Pagination component
-<pre>
+```
 const [currentPage, setCurrentPage] = useState(1);
 
     useEffect(() => {
@@ -14,9 +14,8 @@ const [currentPage, setCurrentPage] = useState(1);
         }
 
     }, [tableList, pageSize, currentPage]);
-</pre>
-#=======
-<pre>
+
+
 <PaginationCustom
     className="pagination-bar"
     currentPage={currentPage}
@@ -25,4 +24,4 @@ const [currentPage, setCurrentPage] = useState(1);
     onPageChange={page => setCurrentPage(page)}
 />
 
-</pre>
+```
