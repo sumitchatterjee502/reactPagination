@@ -5,8 +5,8 @@ import PaginationCustom from '../Library/Pagination';
 
 const Table = (props)=> {
 
-    const tableList= props.tableList;
-    const pageSize = props.pageSize;
+    
+    const pageSize = 10;
     
     const [paginatedPosts, setPaginatedPosts] = useState();
     const [currentPage, setCurrentPage] = useState(1);
